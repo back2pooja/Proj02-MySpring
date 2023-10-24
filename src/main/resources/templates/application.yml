@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ashokit
+    url: testdb
+    username: ashokit
+  jpa:
+    hibernate:
+     ddl-auto: update
+   
+plan-api:
+  message:
+    planSaveSucc: Plan Saved Successfully
+    planSaveFail: Plan Saved Failed
+    planUpdatedSucc: Plan Updated Successfully
+    planUpdatedFailed: Plan Updated Failed
+    planDeleteSucc: Plan Deleted Successfully
+    planDeleteFail: Plan delete Failed
+    planStatusChange: Plan Status Changed Successfully
+    planStatusChangeFail: Plan Status Changed Failed
+  
